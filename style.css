@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.facade {
+    height: 120px;
+    margin-left: 2rem;
+    border-radius: 3px;
+}
+.door {
+    width: 30px;
+    height: 60px;
+    background: navajowhite;
+    margin-left: 4rem;
+    margin-top: 3.8rem;
+}
+
+.roof {
+    border-width: 100px;
+    border-style: solid;
+    margin-top: -19rem;
+    margin-left: 0.5rem;
+}
+.components {
+    display: inline;
+    float: left;
+}
+.window {
+    display: inline;
+    float: left;
+    width: 30px;
+    height: 23px;
+    background: navajowhite;
+    border-radius: 3px;
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+.card {
+    border: none;
+    max-width: 200px;
+    margin-bottom: 5rem;
+}
+.card:hover {
+    filter: blur(0px);
+    transform: scale(1.1);
+    opacity: 0.05;
+}
+
+.colorBtn{
+    position: absolute;
+    top: 5%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    background: red;
+    padding: 0.4rem 1.3rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 6px;
+    margin-bottom: 5rem;
+}
+.colorBtn:hover{
+    color: red;
+    background: none;
+    border: 3px solid red;
+  }
+
+.drawingBtn button {
+    display: inline-block;
+    background: #075E54;;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 3px solid #075E54;
+    margin-bottom: 2rem;
+  }
+  .drawingBtn button:hover{
+    color: #075E54;
+    background: none;
+  }
+  .form-house input{
+    border: 2px solid #075E54;
+  }
