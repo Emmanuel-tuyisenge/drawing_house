@@ -9,6 +9,6 @@ CREATE TABLE `numberOfHouse` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `idnumberOfHouse_UNIQUE` (`id`)
 )
-Puis lacer le serveur `php -S localhost:8000`
+Puis lancer le serveur `php -S localhost:8000`
 #
 
